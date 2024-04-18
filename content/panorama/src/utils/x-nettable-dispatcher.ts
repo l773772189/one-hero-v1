@@ -3,6 +3,7 @@ import 'panorama-polyfill-x/lib/console';
 
 (() => {
     GameEvents.Subscribe(`x_net_table`, received_object => {
+        // @ts-ignore
         const content = received_object.data;
 
         // 如果数据不是string，那么直接dispatch
@@ -20,6 +21,7 @@ import 'panorama-polyfill-x/lib/console';
         // 导致出错
         if (content.charAt(0) != '#') {
             try {
+                // @ts-ignore
                 const _table_object = JSON.parse(content) as XNetTableDataJSON;
                 dispatch(_table_object.table, _table_object.key, _table_object.value);
             } catch {
@@ -48,6 +50,7 @@ import 'panorama-polyfill-x/lib/console';
                 .join('');
 
             try {
+                // @ts-ignore
                 const data = JSON.parse(res) as XNetTableDataJSON;
                 dispatch(data.table, data.key, data.value);
             } catch {

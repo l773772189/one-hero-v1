@@ -5,10 +5,11 @@
 	IsTemplate = false
 	maps = 
 	[
-		"dota",
+		"fmzj",
+		"run"
 	]
 	CheckAFKPlayers = false
-	DefaultMap = "dota"
+	DefaultMap = "run"
 	Default_Keys = 
 	[
 	]
@@ -24,7 +25,7 @@
 	map_options = 
 	[
 		{
-			map = "dota"
+			map = "fmzj"
 		},
 	]
 	PenaltiesEnabled = false

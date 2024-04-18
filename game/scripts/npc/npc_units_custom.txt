@@ -1,1 +1,145 @@
 #base "minions.txt"
+#base "npc_units_custom2.txt"
+#base "box.txt"
+#base "SmallCreepOfMiddle.txt"
+
+"DOTAUnits"
+{
+    "npc_dota_custom_patrol_a"
+        {
+            // 单位的基本信息
+            "BaseClass" "npc_dota_creature"
+            "Model" "models/creeps/lane_creeps/creep_2021_dire/creep_2021_dire_melee_mega.vmdl" // 小萨特的模型路径
+            "SoundSet" "Creep_Bad_Melee"
+            "Level" "1"
+            "ModelScale" "1"
+
+            // 单位的属性
+            "HealthBarOffset" "140"
+            "BountyXP" "20"
+            "BountyGoldMin" "10"
+            "BountyGoldMax" "15"
+
+            // 单位的统计数据
+            "StatusHealth" "120" // 血量
+            "StatusHealthRegen" "0.5"
+            "StatusMana" "0"
+            "StatusManaRegen" "0"
+
+            // 攻击能力
+            "AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+            "AttackDamageMin" "26" // 最小攻击力
+            "AttackDamageMax" "28" // 最大攻击力
+            "AttackRate" "1.7" // 攻击间隔
+            "AttackAnimationPoint" "0.3"
+            "AttackAcquisitionRange" "500"
+            "AttackRange" "128"
+            "ProjectileModel" "particles/units/heroes/hero_dragon_knight/dragon_knight_base_attack.vpcf"
+            "ProjectileSpeed" "0"
+
+            "MovementSpeed" "300" // 设置单位的基础移动速度为300
+            "MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND"
+
+            // 视野
+            "VisionDaytimeRange" "800"
+            "VisionNighttimeRange" "800"
+
+            // 护甲
+            "ArmorPhysical" "1" // 护甲值
+
+            // 单位标签
+            "UnitLabel" "custom_patrol_a"
+            "CombatClassAttack" "DOTA_COMBAT_CLASS_ATTACK_PIERCE"
+            "CombatClassDefend" "DOTA_COMBAT_CLASS_DEFEND_SOFT"
+            "UnitRelationshipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+        }
+    "b1"
+    {
+        "BaseClass"                 "npc_dota_creature"
+        "Model"                     "models/props_debris/merchant_debris_chest002.vmdl" // 使用一个看不见的模型或您希望的任何模型
+        "ModelScale"                "1.0"
+        "StatusHealth"              "5"      // 单位的生命值
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_NONE"   // 设定为无法移动
+        "MovementSpeed"             "0"        // 移动速度
+        "HealthBarOffset" "140"
+
+    }
+    "b2"
+    {
+        "BaseClass"                 "npc_dota_creature"
+        "Model"                     "models/props_generic/morokai_treasure.vmdl" // 使用一个看不见的模型或您希望的任何模型
+        "ModelScale"                "1.0"
+        "StatusHealth"              "5"      // 单位的生命值
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_NONE"   // 设定为无法移动
+        "MovementSpeed"             "0"        // 移动速度
+        "HealthBarOffset" "140"
+    }
+    "b3"
+    {
+        "BaseClass"                 "npc_dota_creature"
+        "Model"                     "models/props_gameplay/treasure_chest001.vmdl" // 使用一个看不见的模型或您希望的任何模型
+        "ModelScale"                "1.0"
+        "StatusHealth"              "5"      // 单位的生命值
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_NONE"   // 设定为无法移动
+        "MovementSpeed"             "0"        // 移动速度
+        "HealthBarOffset" "140"
+    }
+    "b4"
+    {
+        "BaseClass"                 "npc_dota_creature"
+        "Model"                     "models/props_gameplay/treasure_chest_gold.vmdl" // 使用一个看不见的模型或您希望的任何模型
+        "ModelScale"                "1.0"
+        "StatusHealth"              "5"      // 单位的生命值
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_NONE"   // 设定为无法移动
+        "MovementSpeed"             "0"        // 移动速度
+        "HealthBarOffset" "140"
+    }
+    "b5"
+    {
+        "BaseClass"                 "npc_dota_creature"
+        "Model"                     "models/props_debris/merchant_debris_chest001.vmdl" // 使用一个看不见的模型或您希望的任何模型
+        "ModelScale"                "1.0"
+        "StatusHealth"              "5"      // 单位的生命值
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_NONE"   // 设定为无法移动
+        "MovementSpeed"             "0"        // 移动速度
+        "HealthBarOffset" "140"
+    }
+
+    "box_template"
+    {
+        "BaseClass"                 "npc_dota_creature"
+        //"Model"                     "maps/backgrounds/models/fairy_showcase_lantern/fairy_showcase_lantern.vmdl" // 使用一个看不见的模型或您希望的任何模型
+        "ModelScale"                "1.0"
+        "StatusHealth"              "5"      // 单位的生命值
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_NONE"   // 设定为无法移动
+        "MovementSpeed"             "0"        // 移动速度
+        "HealthBarOffset" "140"
+        //"RingRadius"    "140"
+    }
+
+    "box1"
+    {
+        "BaseClass"                 "npc_dota_creature"
+        "Model"                     "models/props_generic/morokai_treasure.vmdl" // 使用一个看不见的模型或您希望的任何模型
+        "ModelScale"                "1.0"
+        "StatusHealth"              "5"      // 单位的生命值
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_NONE"   // 设定为无法移动
+        "MovementSpeed"             "0"        // 移动速度
+        "HealthBarOffset" "140"
+    }
+
+    healing_fountain_aura_unit
+    {
+        "BaseClass"                 "npc_dota_creature"
+        "Model"                     "models/props_gameplay/fountain_of_life/fountain_of_life.vmdl" // 使用一个看不见的模型或您希望的任何模型
+        "ModelScale"                "0.5"
+        "StatusHealth"              "5"      // 单位的生命值
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_NONE"   // 设定为无法移动
+        "MovementSpeed"             "0"        // 移动速度
+        "HealthBarOffset" "140"
+        "Ability1"					"healing_fountain_aura"					// Ability 1
+        "CollisionSize"             "500"  // 设置合适的碰撞体积
+        "RingRadius"    "200"
+        "BoundsHullName"            "DOTA_HULL_SIZE_BARRACKS"  // 或者选择适合的尺寸，如 SMALL, MEDIUM, LARGE, 或 BUILDING
+    }
+}

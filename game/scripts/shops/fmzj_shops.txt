@@ -1,0 +1,174 @@
+"dota_shops"
+{
+	"consumables"
+	{
+        "item" "item_jrdxj"
+        "item" "item_sllxc"
+        "item" "item_yd"
+        "item" "item_nmdsh"
+        "item" "item_ldzd"
+        "item" "item_kzsmfwdsc"
+        "item" "item_hbssh"
+        "item" "item_nmdtt"
+        "item" "item_yzjj"
+        "item" "item_hyhsf"
+        "item" "item_lgcr"
+        "item" "item_slmddjs"
+        "item" "item_dyhj"
+        "item" "item_hlbd"
+        "item" "item_mgzh"
+        "item" "item_slmddlh"
+        "item" "item_fzhj"
+        "item" "item_fzwz"
+        "item" "item_pyzj"
+        "item" "item_xfedyj"
+        "item" "item_fyshj"
+        "item" "item_jfzx"
+        "item" "item_sdst"
+        "item" "item_xfedga"
+        "item" "item_szx"
+        "item" "item_clxl"
+        "item" "item_shts"
+        "item" "item_wddzf"
+        "item" "item_hykj"
+        "item" "item_ylxqj"
+        "item" "item_spyd"
+        "item" "item_wddbh"
+        "item" "item_smzj"
+        "item" "item_yyzj"
+        "item" "item_hlzj"
+        "item" "item_tssj"
+        "item" "item_mfgz"
+        "item" "item_mlq"
+        "item" "item_mlhf"
+        "item" "item_myjj"
+        "item" "item_yszy"
+        "item" "item_fss"
+        "item" "item_fjshs"
+        "item" "item_ssbh"
+        "item" "item_zhjz"
+        "item" "item_tdmfs"
+        "item" "item_hymfs"
+        "item" "item_tfmfs"
+        "item" "item_hbmfs"
+        "item" "item_ldmfs"
+        "item" "item_dlby"
+        "item" "item_ryzd"
+        "item" "item_sfsx"
+        "item" "item_lmqy"
+        "item" "item_lmzq"
+        "item" "item_hazx"
+        "item" "item_mssh"
+        "item" "item_tszk"
+        "item" "item_hszk"
+        "item" "item_fszk"
+
+	}
+
+	"attributes"
+	{
+                "item" "item_sszk"
+                "item" "item_lszk"
+                "item" "item_mwzk"
+                "item" "item_siszk"
+                "item" "item_ddsc"
+                "item" "item_hszr"
+                "item" "item_fszg"
+                "item" "item_ssqz"
+                "item" "item_lszc"
+                "item" "item_mhqz"
+                "item" "item_sszj"
+                "item" "item_ddzl"
+                "item" "item_xrtz"
+                "item" "item_lhsb"
+                "item" "item_scj"
+                "item" "item_xnhj"
+                "item" "item_lgqz"
+                "item" "item_hjsh"
+                "item" "item_cly"
+                "item" "item_mfj"
+                "item" "item_zfbs"
+                "item" 		"item_d"
+                "item" 		"item_e"
+                "item" 		"item_f"
+                "item" 		"item_g"
+                "item" 		"item_h"
+                "item" 		"item_ssqz"
+	}
+
+	"weapons_armor"
+	{
+        //"item" "item_tssj"
+        //"item" "item_mfgz"
+        //"item" "item_mlq"
+       // "item" "item_mlhf"
+        //"item" "item_myjj"
+        //"item" "item_yszy"
+       // "item" "item_fss"
+        "item" "item_fjshs"
+        //"item" "item_ssbh"
+        "item" "item_zhjz"
+        //"item" "item_tdmfs"
+        //"item" "item_hymfs"
+        //"item" "item_tfmfs"
+        //"item" "item_hbmfs"
+        //"item" "item_ldmfs"
+        //"item" "item_mssh"
+        "item" "item_jrdxj2"
+	}
+
+	"misc"
+	{
+	    "item" "item_radiance_custom"
+	    "item" "item_hszr2"
+	}
+
+	// Level 1 - Green Recipes
+	"basics"
+	{
+		//"item" 		"item_blink"
+	}
+
+	// Level 2 - Blue Recipes
+	"support"
+	{
+		//"item" 		"item_blink"
+	}
+
+	"magics"
+	{
+		"item" 		"d"
+	}
+
+	// Level 3 - Purple Recipes
+	"defense"
+	{
+
+	}
+
+	"weapons"
+	{
+
+	}
+
+	// Level 4 - Orange / Orb / Artifacts
+	"artifacts"
+	{
+
+	}
+
+	"sideshop1"
+	{
+
+	}
+
+	"sideshop2"
+	{
+
+	}
+
+	"secretshop"
+	{
+
+	}
+}

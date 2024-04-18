@@ -1,0 +1,109 @@
+"DOTAUnits"
+{
+    "custom_unit_box1"
+    {
+        "BaseClass"                 "npc_dota_creature"
+        "Model"                     "models/props_generic/chest_treasure_02.vmdl" // 使用一个看不见的模型或您希望的任何模型
+        "HealthBarOffset"           "140"
+        "BountyXP"                  "50"
+        "StatusHealth"              "500"      // 单位的生命值
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_NONE"   // 设定为无法移动
+        "ModelScale"                "0.7"
+    }
+    "custom_unit_box1Open"
+    {
+        "BaseClass"                 "npc_dota_creature"
+        "Model"                     "models/props_generic/chest_treasure_02_open.vmdl" // 使用一个看不见的模型或您希望的任何模型
+        "BountyXP"                  "50"
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_NONE"   // 设定为无法移动
+        "ModelScale"                "0.7"
+    }
+    "custom_unit_box2"
+    {
+        "BaseClass"                 "npc_dota_creature"
+        "Model"                     "models/props_generic/chest_treasure_02.vmdl" // 使用一个看不见的模型或您希望的任何模型
+        "HealthBarOffset"           "140"
+        "BountyXP"                  "50"
+        "StatusHealth"              "1000"      // 单位的生命值
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_NONE"   // 设定为无法移动
+        "ModelScale"                "1.2"
+        "renderColor"               "0 100 255"
+    }
+    "custom_unit_box2Open"
+    {
+        "BaseClass"                 "npc_dota_creature"
+        "Model"                     "models/props_generic/chest_treasure_02_open.vmdl" // 使用一个看不见的模型或您希望的任何模型
+        "HealthBarOffset"           "140"
+        "BountyXP"                  "50"
+        "StatusHealth"              "1000"      // 单位的生命值
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_NONE"   // 设定为无法移动
+        "ModelScale"                "1.2"
+        "renderColor"               "0 100 255"
+    }
+    "custom_unit_box3"
+    {
+        "BaseClass"                 "npc_dota_creature"
+        "Model"                     "models/props_generic/chest_treasure_02.vmdl" // 使用一个看不见的模型或您希望的任何模型
+        "HealthBarOffset"           "140"
+        "BountyXP"                  "50"
+        "StatusHealth"              "2000"      // 单位的生命值
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_NONE"   // 设定为无法移动
+        "ModelScale"                "1.7"
+        "renderColor"               "0 255 0"
+    }
+    "custom_unit_box3Open"
+    {
+        "BaseClass"                 "npc_dota_creature"
+        "Model"                     "models/props_generic/chest_treasure_02_open.vmdl" // 使用一个看不见的模型或您希望的任何模型
+        "HealthBarOffset"           "140"
+        "BountyXP"                  "50"
+        "StatusHealth"              "2000"      // 单位的生命值
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_NONE"   // 设定为无法移动
+        "ModelScale"                "1.7"
+        "renderColor"               "0 255 0"
+    }
+    "custom_unit_box4"
+    {
+        "BaseClass"                 "npc_dota_creature"
+        "Model"                     "models/props_generic/chest_treasure_02.vmdl" // 使用一个看不见的模型或您希望的任何模型
+        "HealthBarOffset"           "140"
+        "BountyXP"                  "50"
+        "StatusHealth"              "5000"      // 单位的生命值
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_NONE"   // 设定为无法移动
+        "ModelScale"                "2.2"
+        "renderColor"               "255 0 0"
+    }
+    "custom_unit_box4Open"
+    {
+        "BaseClass"                 "npc_dota_creature"
+        "Model"                     "models/props_generic/chest_treasure_02_open.vmdl" // 使用一个看不见的模型或您希望的任何模型
+        "HealthBarOffset"           "140"
+        "BountyXP"                  "50"
+        "StatusHealth"              "5000"      // 单位的生命值
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_NONE"   // 设定为无法移动
+        "ModelScale"                "2.2"
+        "renderColor"               "255 0 0"
+    }
+    "custom_unit_box5"
+    {
+        "BaseClass"                 "npc_dota_creature"
+        "Model"                     "models/props_generic/chest_treasure_02.vmdl" // 使用一个看不见的模型或您希望的任何模型
+        "HealthBarOffset"           "140"
+        "BountyXP"                  "50"
+        "StatusHealth"              "50000"      // 单位的生命值
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_NONE"   // 设定为无法移动
+        "ModelScale"                "2.7"
+        "renderColor"               "0 0 0"
+    }
+    "custom_unit_box5Open"
+    {
+        "BaseClass"                 "npc_dota_creature"
+        "Model"                     "models/props_generic/chest_treasure_02_open.vmdl" // 使用一个看不见的模型或您希望的任何模型
+        "HealthBarOffset"           "140"
+        "BountyXP"                  "50"
+        "StatusHealth"              "50000"      // 单位的生命值
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_NONE"   // 设定为无法移动
+        "ModelScale"                "2.7"
+        "renderColor"               "0 0 0"
+    }
+}

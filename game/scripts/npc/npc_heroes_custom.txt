@@ -1,0 +1,90 @@
+"DOTAHeroes"
+{
+    "npc_dota_hero_axe"
+	{
+		"override_hero"    "npc_dota_hero_axe"
+		"ModelScale"			"1"
+		"DisableWearables"    "0"
+        "Ability1"				""						// Ability 1
+        "Ability2"				""					// Ability 2
+        "Ability3"				""					// Ability 3
+        "Ability4"				""						// Ability 4
+        "AttackDamageMin"			"180"									// Damage range min.
+		"AttackDamageMax"			"380"									// Damage range max.
+        "StatusHealthRegen"			"0"									// Health regeneration rate.
+		"MovementSpeed"				"300"									// Speed.
+        "AttributeBaseStrength"		"0"									// Base strength
+		"AttributeStrengthGain"		"0"									// Strength bonus per level.
+		"AttributeBaseIntelligence"	"0"									// Base intelligence
+		"AttributeIntelligenceGain"	"0"									// Intelligence bonus per level.
+		"AttributeBaseAgility"		"0"									// Base agility
+		"AttributeAgilityGain"		"0"									// Agility bonus per level.
+        "StatusHealth"                  "20000"
+        "DisWearables"    "0"
+	}
+
+    "npc_dota_hero_juggernaut"
+	{
+		"override_hero"    "npc_dota_hero_juggernaut"
+		"DisableWearables"    "0"
+	}
+
+    "npc_dota_hero_pugna"
+    {
+        "override_hero"    "npc_dota_hero_pugna"
+        "ModelScale"			"2"
+        "DisableWearables"    "0"
+        "AttackDamageMin"			"180"									// Damage range min.
+        "AttackDamageMax"			"380"									// Damage range max.
+        "StatusHealth"                  "20000"
+        "HealthBarOffset" "500"
+        "HealthBarUnit" "100000" // 每个血条代表100,000血量
+    }
+    "npc_dota_hero_tidehunter"
+    {
+        "override_hero"    "npc_dota_hero_tidehunter"
+        "ModelScale"			"2"
+        "DisableWearables"    "0"
+        "AttackDamageMin"			"1800000"									// Damage range min.
+        "AttackDamageMax"			"3800000"									// Damage range max.
+        "StatusHealth"                  "2000000"
+        "HealthBarOffset" "500"
+        "HealthBarUnit" "100000" // 每个血条代表100,000血量
+
+    }
+    "npc_dota_hero_queenofpain"
+    {
+        "override_hero"    "npc_dota_hero_queenofpain"
+        "ModelScale"			"2"
+        "DisableWearables"    "0"
+        "AttackDamageMin"			"1800000"									// Damage range min.
+        "AttackDamageMax"			"3800000"									// Damage range max.
+        "StatusHealth"                  "2000000"
+        "HealthBarOffset" "500"
+        "HealthBarUnit" "100000" // 每个血条代表100,000血量
+
+    }
+    "npc_dota_hero_night_stalker"
+    {
+        "override_hero"    "npc_dota_hero_night_stalker"
+        "ModelScale"			"2"
+        "DisableWearables"    "0"
+        "AttackDamageMin"			"1800000"									// Damage range min.
+        "AttackDamageMax"			"3800000"									// Damage range max.
+        "StatusHealth"                  "2000000"
+        "HealthBarOffset" "500"
+        "HealthBarUnit" "100000" // 每个血条代表100,000血量
+
+    }
+    "npc_dota_hero_lycan"
+    {
+        "override_hero"    "npc_dota_hero_lycan"
+        "ModelScale"			"2"
+        "DisableWearables"    "0"
+        "AttackDamageMin"			"1800000"									// Damage range min.
+        "AttackDamageMax"			"3800000"									// Damage range max.
+        "StatusHealth"                  "2000000"
+        "HealthBarOffset" "500"
+        "HealthBarUnit" "100000" // 每个血条代表100,000血量
+    }
+}

@@ -1,0 +1,76 @@
+"DOTAUnits"
+{
+    "SmallCreepOfMiddle1"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/items/dragon_knight/ti9_cache_dk_scorching_amber_dragoon_form/ti9_cache_dk_scorching_amber_dragoon_form.vmdl" // 选择合适的模型
+        "BountyXP"                      "50"
+        "BountyGoldMin"                 "1"
+        "BountyGoldMax"                 "1"
+        "StatusHealth"                  "1500"
+        "AttackCapabilities"            "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "AttackDamageMin"               "100"
+        "AttackDamageMax"               "100"
+        "MovementSpeed"                 "300"
+        "MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND"
+    }
+    "SmallCreepOfMiddle2"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/items/dragon_knight/oblivion_blazer_dragon/oblivion_blazer_dragon_dpc.vmdl" // 选择合适的模型
+        "BountyXP"                      "50"
+        "BountyGoldMin"                 "1"
+        "BountyGoldMax"                 "1"
+        "StatusHealth"                  "1500"
+        "AttackCapabilities"            "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "AttackDamageMin"               "100"
+        "AttackDamageMax"               "100"
+        "MovementSpeed"                 "300"
+        "MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND"
+    }
+    "SmallCreepOfMiddle3"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/items/courier/ig_dragon/ig_dragon_flying.vmdl" // 选择合适的模型
+        "BountyXP"                      "50"
+        "BountyGoldMin"                 "1"
+        "BountyGoldMax"                 "1"
+        "StatusHealth"                  "1500"
+        "AttackCapabilities"            "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "AttackDamageMin"               "100"
+        "AttackDamageMax"               "100"
+        "MovementSpeed"                 "300"
+        "MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND"
+    }
+    "SmallCreepOfMiddle4"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/courier/otter_dragon/otter_dragon_flying.vmdl" // 选择合适的模型
+        "BountyXP"                      "50"
+        "BountyGoldMin"                 "1"
+        "BountyGoldMax"                 "1"
+        "StatusHealth"                  "1500"
+        "AttackCapabilities"            "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "AttackDamageMin"               "100"
+        "AttackDamageMax"               "100"
+        "MovementSpeed"                 "300"
+        "MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND"
+    }
+    "SmallCreepOfMiddle5"
+    {
+        "BaseClass"                     "npc_dota_creature"
+        "Model"                         "models/items/dragon_knight/dragon_guardian_dragon/dragon_guardian_dragon.vmdl" // 选择合适的模型
+        "BountyXP"                      "50"
+        "BountyGoldMin"                 "1"
+        "BountyGoldMax"                 "1"
+        "StatusHealth"                  "1500"
+        "AttackCapabilities"            "DOTA_UNIT_CAP_RANGED_ATTACK" // 修改为远程攻击
+        "AttackDamageMin"               "100"
+        "AttackDamageMax"               "100"
+        "MovementSpeed"                 "300"
+        "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
+        "AttackProjectileModel"         "particles/units/heroes/hero_lina/lina_base_attack.vpcf" // 这里应选择一个龙形投射物的模型，这只是一个占位符
+        "AttackRange"                   "500" // 远程攻击距离
+        "ProjectileSpeed"               "900" // 远程攻击距离
+    }
+}

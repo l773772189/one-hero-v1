@@ -1,2 +1,467 @@
 #base "items_list_1.txt"
 #base "items_list_2.txt"
+#base "items_list_3.txt"
+
+"DOTAAbilities"
+{
+"item_hszr2" {
+		"BaseClass" "item_lua"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_hszr"
+		"ScriptFile"                    "item/a"
+		 "AbilityBehavior"                 "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Modifiers" {
+    "modifier_item_hszr"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "300"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+            "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "50" //li_liang
+            "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "150" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+	}
+	"item_radiance_custom"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"1578"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE"
+        "BaseClass"                     "item_radiance"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1"
+		"ItemShopTags"					"damage"
+		"ItemQuality"					"epic"
+		"ItemAliases"					"radiance"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"65"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"aura_damage"			"50"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"blind_pct"				"17"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"aura_radius"			"700"
+			}
+		}
+	}
+
+    "item_magic1"
+    {
+        "ID"							"1601"
+        "BaseClass"                     "item_datadriven"
+        "ItemCost"						"100"
+        "AbilityTextureName"            "item_magic1"
+        "Modifiers"
+        {
+            "modifier_item_magic1_mana_regen"
+            {
+                "Passive"               "1"
+                "IsHidden"              "1"
+                "Properties"
+                {
+                    "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2"
+                }
+            }
+        }
+    }
+    "item_magic2"
+    {
+        "ID"							"1602"
+        "BaseClass"                     "item_datadriven"
+        "ItemCost"						"100"
+        "AbilityTextureName"            "item_magic2"
+        "Modifiers"
+        {
+            "modifier_item_magic2_mana_bonus"
+            {
+                "Passive"               "1"
+                "IsHidden"              "1"
+                "Properties"
+                {
+                    "MODIFIER_PROPERTY_MANA_BONUS"    "100"
+                }
+            }
+        }
+    }
+    "item_magic3"
+    {
+        "ID"							"1603"
+        "BaseClass"                     "item_datadriven"
+        "ItemCost"						"100"
+        "AbilityTextureName"            "item_magic3"
+        "Modifiers"
+        {
+            "modifier_item_magic3_mana_regen_pct"
+            {
+                "Passive"               "1"
+                "IsHidden"              "1"
+                "Properties"
+                {
+                    "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2"
+                }
+            }
+        }
+    }
+    "item_magic4"
+    {
+        "ID"							"1604"
+        "BaseClass"                     "item_datadriven"
+        "ItemCost"						"100"
+        "AbilityTextureName"            "item_magic4"
+        "Modifiers"
+        {
+            "modifier_item_magic3_mana_regen_pct"
+            {
+                "Passive"               "1"
+                "IsHidden"              "1"
+                "Properties"
+                {
+                    "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "20"
+                    "MODIFIER_PROPERTY_MANA_BONUS"    "500"
+                }
+            }
+        }
+    }
+    "item_recipe_magic4"
+    {
+        "ID" "1605"
+        "BaseClass"           "item_datadriven"
+        "ItemRecipe"          "1"
+        "ItemCost"            "0"
+        "ItemResult"          "item_magic4"
+        "ItemRequirements"
+        {
+            "01" "item_magic1;item_magic2;item_magic3"
+        }
+    }
+//-------------------------------------------------------------------------------------------------------------------------
+    "item_ring1"
+    {
+        "ID"							"1611"
+        "BaseClass"                     "item_datadriven"
+        "ItemCost"						"100"
+        "AbilityTextureName"            "item_ring1"
+        "Modifiers"
+        {
+            "modifier_item_ring1_evasion"
+            {
+                "Passive"               "1"
+                "IsHidden"              "1"
+                "Properties"
+                {
+                    "MODIFIER_PROPERTY_EVASION_CONSTANT"    "10"
+                }
+            }
+        }
+    }
+    "item_ring2"
+    {
+        "ID"							"1612"
+        "BaseClass"                     "item_datadriven"
+        "ItemCost"						"100"
+        "AbilityTextureName"            "item_ring2"
+        "Modifiers"
+        {
+            "modifier_item_ring2_health_bonus"
+            {
+                "Passive"               "1"
+                "IsHidden"              "1"
+                "Properties"
+                {
+                    "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "20"
+                    "MODIFIER_PROPERTY_HEALTH_BONUS"    "200"
+                }
+            }
+        }
+    }
+    "item_ring3"
+    {
+        "ID"							"1613"
+        "BaseClass"                     "item_datadriven"
+        "ItemCost"						"100"
+        "AbilityTextureName"            "item_ring3"
+        "Modifiers"
+        {
+            "modifier_item_ring3_health_bonus"
+            {
+                "Passive"               "1"
+                "IsHidden"              "1"
+                "Properties"
+                {
+                    "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "10"
+                }
+            }
+        }
+    }
+    "item_ring4"
+    {
+        "ID"							"1614"
+        "BaseClass"                     "item_datadriven"
+        "ItemCost"						"100"
+        "AbilityTextureName"            "item_ring4"
+        "Modifiers"
+        {
+            "modifier_item_ring4_evasion"
+            {
+                "Passive"               "1"
+                "IsHidden"              "1"
+                "Properties"
+                {
+                    "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "100"
+                    "MODIFIER_PROPERTY_HEALTH_BONUS"    "1500"
+                    "MODIFIER_PROPERTY_EVASION_CONSTANT"    "15"
+                    "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "15"
+                }
+            }
+        }
+    }
+    "item_recipe_ring4"
+    {
+        "ID" "1615"
+        "BaseClass"           "item_datadriven"
+        "ItemRecipe"          "1"
+        "ItemCost"            "0"
+        "ItemResult"          "item_ring4"
+        "ItemRequirements"
+        {
+            "01" "item_ring1;item_ring2;item_ring3"
+        }
+    }
+
+//-------------------------------------------------------------------------------------------------------------------------
+
+    "item_angel"
+    {
+        "ID"							"1621"
+        "BaseClass"                     "item_datadriven"
+        "ItemCost"						"100"
+        "AbilityTextureName"            "item_angel"
+        "Modifiers"
+        {
+            "modifier_item_angel_evasion"
+            {
+                "Passive"               "1"
+                "IsHidden"              "1"
+                "Properties"
+                {
+                    "MODIFIER_PROPERTY_HEALTH_BONUS"    "2000"
+                    "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "200"
+
+                    "MODIFIER_PROPERTY_MANA_BONUS"    "1000"
+                    "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "100"
+
+                    "MODIFIER_PROPERTY_EVASION_CONSTANT"    "30"
+                    "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "30"
+                }
+            }
+        }
+    }
+    "item_recipe_angel"
+    {
+        "ID"                             "1622"
+        "BaseClass"           "item_datadriven"
+        "ItemRecipe"          "1"
+        "ItemCost"            "0"
+        "ItemResult"          "item_angel"
+        "ItemRequirements"
+        {
+            "01" "item_magic4;item_ring4"
+        }
+    }
+
+//-------------------------------------------------------------------------------------------------------------------------
+    "item_stone"
+    {
+        "ID"							"1631"
+        "BaseClass"                     "item_datadriven"
+        "ItemCost"						"100"
+        "AbilityTextureName"            "item_stone"
+        "Modifiers"
+        {
+            "modifier_item_stone_evasion"
+            {
+                "Passive"               "1"
+                "IsHidden"              "1"
+                "Properties"
+                {
+                    "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "150"
+                }
+            }
+        }
+    }
+    "item_stone2"
+    {
+        "ID"							"1632"
+        "BaseClass"                     "item_datadriven"
+        "ItemCost"						"100"
+        "AbilityTextureName"            "item_stone2"
+        "Modifiers"
+        {
+            "modifier_item_stone2_evasion"
+            {
+                "Passive"               "1"
+                "IsHidden"              "1"
+                "Properties"
+                {
+                    "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "30"
+                    "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "100"
+                }
+            }
+        }
+    }
+//-------------------------------------------------------------------------------------------------------------------------
+    "item_bihu"
+    {
+        "ID"							"1641"
+        "BaseClass"                     "item_datadriven"
+        "ItemCost"						"100"
+        "AbilityTextureName"            "item_bihu"
+        "Modifiers"
+        {
+            "modifier_item_bihu_evasion"
+            {
+                "Passive"               "1"
+                "IsHidden"              "1"
+                "Properties"
+                {
+                    "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"
+                    "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"
+
+                    "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"
+                    "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"
+
+                    "MODIFIER_PROPERTY_MANA_BONUS"    "50000"
+                    "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"
+
+                    "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"
+                    "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"
+
+                    "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"
+                }
+            }
+        }
+    }
+    "item_recipe_bihu"
+    {
+        "ID"                             "1642"
+        "BaseClass"           "item_datadriven"
+        "ItemRecipe"          "1"
+        "ItemCost"            "0"
+        "ItemResult"          "item_bihu"
+        "ItemRequirements"
+        {
+            "01" "item_stone;item_stone2;item_angel"
+        }
+    }
+
+    "item_d"
+    {
+            "BaseClass"                     "item_lua"
+            "ScriptFile"                    "d"
+            "ItemCost"						"100"
+            "AbilityTextureName"            "item_hlbd"
+		    "AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+      }
+      "item_e"
+      {
+              "BaseClass"                     "item_lua"
+              "ScriptFile"                    "e"
+              "ItemCost"						"100"
+              "AbilityTextureName"            "item_fzwz"
+            "AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+        }
+      "item_f"
+      {
+              "BaseClass"                     "item_lua"
+              "ScriptFile"                    "f"
+              "ItemCost"						"100"
+              "AbilityTextureName"            "item_fzwz"
+            "AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+        }
+        "item_g"
+        {
+                "BaseClass"                     "item_lua"
+                "ScriptFile"                    "g"
+                "ItemCost"						"100"
+                "AbilityTextureName"            "item_fzwz"
+              "AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+          }
+        "item_h"
+        {
+                "BaseClass"                     "item_lua"
+                "ScriptFile"                    "h"
+                "ItemCost"						"100"
+                "AbilityTextureName"            "item_fzwz"
+              "AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+          }
+
+
+    "item_jrdxj2" {
+    		"BaseClass" "item_datadriven"
+    		"ItemCost" "1"
+    		"AbilityTextureName" "item_jrdxj"
+    		"Modifiers" {
+        "modifier_item_jrdxj"
+        {
+            "Passive"               "1"
+            "IsStackable" "1"
+            "Properties"
+            {
+                "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "20"//hu_jia
+              //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+               // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+               // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+               // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+              //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+              //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+              //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+              //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+                "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "10" //li_liang
+               // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+               // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+            }
+        }
+    }
+    		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    		"level" "3"
+    	}
+}

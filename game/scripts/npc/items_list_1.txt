@@ -5,15 +5,2760 @@
 // Template: https://github.com/XavierCHN/x-template
 "XLSXContent"
 {
-	"item_kv_generator_test1" {
-		"BaseClass" "item_lua"
-		"AbilityValues" {
-			"damage" "0.1 0.2 0.3 0.4"
-			"unknown_var_0" "1 1 2 3 4"
-			"unknown_var_1" "1000 2000 30000 40000"
-		}
-		"MaxLevel" "2"
-		"AbilityCooldown" "1 2 3 4"
-		"AbilityManaCost" "1 1 1 1"
+	"item_demo" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_demo"
+		"Modifiers" {
+    "modifier_item_bihu_evasion"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
 	}
+	"item_jrdxj" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_jrdxj"
+		"Modifiers" {
+    "modifier_item_jrdxj"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "20"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+            "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "10" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"level" "3"
+	}
+	"item_sllxc" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_sllxc"
+		"Modifiers" {
+    "modifier_item_sllxc"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "20"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+            "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "5" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"level" "2"
+	}
+	"item_yd" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_yd"
+		"Modifiers" {
+    "modifier_item_yd"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "5"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"level" "1"
+	}
+	"item_nmdsh" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_nmdsh"
+		"Modifiers" {
+    "modifier_item_nmdsh"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "80"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+           "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "20" //li_liang
+            "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "20" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_ldzd" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_ldzd"
+		"Modifiers" {
+    "modifier_item_ldzd"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "15"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+            "MODIFIER_PROPERTY_EVASION_CONSTANT"    "15"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"level" "3"
+	}
+	"item_kzsmfwdsc" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_kzsmfwdsc"
+		"Modifiers" {
+    "modifier_item_kzsmfwdsc"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "10"//gong_ji_li
+
+            "MODIFIER_PROPERTY_HEALTH_BONUS"    "200"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"level" "2"
+	}
+	"item_hbssh" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_hbssh"
+		"Modifiers" {
+    "modifier_item_hbssh"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+           "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "5" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"level" "1"
+	}
+	"item_nmdtt" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_nmdtt"
+		"Modifiers" {
+    "modifier_item_nmdtt"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+           "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "10"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "40"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+           "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "20" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_yzjj" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_yzjj"
+		"Modifiers" {
+    "modifier_item_yzjj"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "20"//gong_ji_li
+
+            "MODIFIER_PROPERTY_HEALTH_BONUS"    "400"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"tag" "hs"
+		"level" "3"
+	}
+	"item_hyhsf" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_hyhsf"
+		"Modifiers" {
+    "modifier_item_hyhsf"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+            "MODIFIER_PROPERTY_HEALTH_BONUS"    "200"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "10" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"tag" "hs"
+		"level" "2"
+	}
+	"item_lgcr" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_lgcr"
+		"Modifiers" {
+    "modifier_item_lgcr"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+           "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "5"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"tag" "hs"
+		"level" "1"
+	}
+	"item_slmddjs" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_slmddjs"
+		"Modifiers" {
+    "modifier_item_slmddjs"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+           "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "80"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"tag" "hs"
+	}
+	"item_dyhj" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_dyhj"
+		"Modifiers" {
+    "modifier_item_dyhj"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "40"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"tag" "hs"
+		"level" "3"
+	}
+	"item_hlbd" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_hlbd"
+		"Modifiers" {
+    "modifier_item_hlbd"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+           "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "10"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+            "MODIFIER_PROPERTY_HEALTH_BONUS"    "200"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"tag" "hs"
+		"level" "2"
+	}
+	"item_mgzh" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_mgzh"
+		"Modifiers" {
+    "modifier_item_mgzh"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+            "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "5" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"tag" "hs"
+		"level" "1"
+	}
+	"item_slmddlh" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_slmddlh"
+		"Modifiers" {
+    "modifier_item_slmddlh"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "10"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "80"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"tag" "hs"
+	}
+	"item_fzhj" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_fzhj"
+		"Modifiers" {
+    "modifier_item_fzhj"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "20"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+            "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "10" //li_liang
+            "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "5" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"level" "3"
+	}
+	"item_fzwz" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_fzwz"
+		"Modifiers" {
+    "modifier_item_fzwz"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "10"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"level" "2"
+	}
+	"item_pyzj" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_pyzj"
+		"Modifiers" {
+    "modifier_item_pyzj"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "5"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+            "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "5" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"level" "1"
+	}
+	"item_xfedyj" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_xfedyj"
+		"Modifiers" {
+    "modifier_item_xfedyj"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "80"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+           "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "15"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_fyshj" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_fyshj"
+		"Modifiers" {
+    "modifier_item_fyshj"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "15"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+            "MODIFIER_PROPERTY_HEALTH_BONUS"    "400"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"level" "3"
+	}
+	"item_jfzx" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_jfzx"
+		"Modifiers" {
+    "modifier_item_jfzx"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+            "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "30"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+            "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "10" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"level" "2"
+	}
+	"item_sdst" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_sdst"
+		"Modifiers" {
+    "modifier_item_sdst"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+           "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "15"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"level" "1"
+	}
+	"item_xfedga" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_xfedga"
+		"Modifiers" {
+    "modifier_item_xfedga"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+            "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "20" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_szx" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_szx"
+		"Modifiers" {
+    "modifier_item_szx"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+            "MODIFIER_PROPERTY_MANA_BONUS"    "400"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"level" "3"
+	}
+	"item_clxl" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_clxl"
+		"Modifiers" {
+    "modifier_item_clxl"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+            "MODIFIER_PROPERTY_MANA_BONUS"    "200"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"level" "2"
+	}
+	"item_shts" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_shts"
+		"Modifiers" {
+    "modifier_item_shts"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+            "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "5"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"level" "1"
+	}
+	"item_wddzf" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_wddzf"
+		"Modifiers" {
+    "modifier_item_wddzf"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+           "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "40"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+            "MODIFIER_PROPERTY_MANA_BONUS"    "200"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_hykj" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_hykj"
+		"Modifiers" {
+    "modifier_item_hykj"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "15"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+            "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "10"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"level" "3"
+	}
+	"item_ylxqj" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_ylxqj"
+		"Modifiers" {
+    "modifier_item_ylxqj"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "10"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+            "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "10"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"level" "2"
+	}
+	"item_spyd" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_spyd"
+		"Modifiers" {
+    "modifier_item_spyd"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+            "MODIFIER_PROPERTY_MANA_BONUS"    "100"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+            "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "5"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"level" "1"
+	}
+	"item_wddbh" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_wddbh"
+		"Modifiers" {
+    "modifier_item_wddbh"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "20"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+            "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "50"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+            "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "10"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_smzj" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_smzj"
+		"Modifiers" {
+    "modifier_item_smzj"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           "MODIFIER_PROPERTY_HEALTH_BONUS"    "200"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "89"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"level" "1"
+	}
+	"item_yyzj" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_yyzj"
+		"Modifiers" {
+    "modifier_item_yyzj"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+           "MODIFIER_PROPERTY_EVASION_CONSTANT"    "10"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "90"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"level" "1"
+	}
+	"item_hlzj" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_hlzj"
+		"Modifiers" {
+    "modifier_item_hlzj"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+            "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "10"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "91"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"level" "1"
+	}
+	"item_tssj" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_tssj"
+		"Modifiers" {
+    "modifier_item_tssj"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+            "MODIFIER_PROPERTY_HEALTH_BONUS"    "1500"//xue_liang
+            "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "100"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+           "MODIFIER_PROPERTY_EVASION_CONSTANT"    "15"//shan_bi
+            "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "15"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "92"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_mfgz" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_mfgz"
+		"Modifiers" {
+    "modifier_item_mfgz"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+            "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "20"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "93"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"level" "1"
+	}
+	"item_mlq" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_mlq"
+		"Modifiers" {
+    "modifier_item_mlq"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+            "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "20"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "94"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"level" "1"
+	}
+	"item_mlhf" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_mlhf"
+		"Modifiers" {
+    "modifier_item_mlhf"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+            "MODIFIER_PROPERTY_MANA_BONUS"    "100"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "95"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"level" "1"
+	}
+	"item_myjj" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_myjj"
+		"Modifiers" {
+    "modifier_item_myjj"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+           "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "100"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "96"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_yszy" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_yszy"
+		"Modifiers" {
+    "modifier_item_yszy"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+            "MODIFIER_PROPERTY_HEALTH_BONUS"    "2000"//xue_liang
+            "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "200"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+            "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "100"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+           "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "150"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "97"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_fss" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "150"
+		"AbilityTextureName" "item_fss"
+		"Modifiers" {
+    "modifier_item_fss"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "97"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"level" "1"
+	}
+	"item_fjshs" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "500"
+		"AbilityTextureName" "item_fjshs"
+		"Modifiers" {
+    "modifier_item_fjshs"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "30"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "100"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "97"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_ssbh" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_ssbh"
+		"Modifiers" {
+    "modifier_item_ssbh"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+           "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+            "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+            "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+            "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+           "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "150"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "97"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_zhjz" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "500"
+		"AbilityTextureName" "item_zhjz"
+		"Modifiers" {
+    "modifier_item_zhjz"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "97"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_tdmfs" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_tdmfs"
+		"Modifiers" {
+    "modifier_item_tdmfs"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "97"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_hymfs" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_hymfs"
+		"Modifiers" {
+    "modifier_item_hymfs"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "97"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_tfmfs" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_tfmfs"
+		"Modifiers" {
+    "modifier_item_tfmfs"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "97"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_hbmfs" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_hbmfs"
+		"Modifiers" {
+    "modifier_item_hbmfs"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "97"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_ldmfs" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_ldmfs"
+		"Modifiers" {
+    "modifier_item_ldmfs"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "97"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_dlby" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_dlby"
+		"Modifiers" {
+    "modifier_item_dlby"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "200"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "1000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+            "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "500"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_ryzd" {
+		"BaseClass" "item_lua"
+		"ScriptFile" "item_ryzd"
+		"AbilityUnitDamageType" "DAMAGE_TYPE_MAGICAL"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_ryzd"
+		"Modifiers" {
+    "modifier_item_ryzd"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_sfsx" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_sfsx"
+		"Modifiers" {
+    "modifier_item_sfsx"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "200"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "1000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+            "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "30"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_lmqy" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_lmqy"
+		"Modifiers" {
+    "modifier_item_lmqy"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "200"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "1000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_lmzq" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_lmzq"
+		"Modifiers" {
+    "modifier_item_lmzq"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "5000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_hazx" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_hazx"
+		"Modifiers" {
+    "modifier_item_hazx"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_mssh" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_mssh"
+		"Modifiers" {
+    "modifier_item_mssh"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+           "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "50000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "97"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_tszk" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_tszk"
+		"Modifiers" {
+    "modifier_item_tszk"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "100"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+            "MODIFIER_PROPERTY_HEALTH_BONUS"    "3000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+            "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "50" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_hszk" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_hszk"
+		"Modifiers" {
+    "modifier_item_hszk"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "50"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+            "MODIFIER_PROPERTY_HEALTH_BONUS"    "3000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+            "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "20" //li_liang
+            "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "20" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_fszk" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_fszk"
+		"Modifiers" {
+    "modifier_item_fszk"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "50"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+            "MODIFIER_PROPERTY_HEALTH_BONUS"    "2000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+            "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "20" //li_liang
+            "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "20" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_sszk" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_sszk"
+		"Modifiers" {
+    "modifier_item_sszk"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "50"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+            "MODIFIER_PROPERTY_HEALTH_BONUS"    "2000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_lszk" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_lszk"
+		"Modifiers" {
+    "modifier_item_lszk"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "50"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+            "MODIFIER_PROPERTY_HEALTH_BONUS"    "2000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+            "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "20" //li_liang
+            "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "20" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_mwzk" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_mwzk"
+		"Modifiers" {
+    "modifier_item_mwzk"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "50"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+            "MODIFIER_PROPERTY_HEALTH_BONUS"    "2000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+            "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "20"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_siszk" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_siszk"
+		"Modifiers" {
+    "modifier_item_siszk"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "50"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+            "MODIFIER_PROPERTY_HEALTH_BONUS"    "5000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_ddsc" {
+		"BaseClass" "item_lua"
+		"ScriptFile" "item_ddsc"
+		"AbilityUnitDamageType" "DAMAGE_TYPE_MAGICAL"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_ddsc"
+		"Modifiers" {
+    "modifier_item_ddsc"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "300"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+           "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "150" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_hszr" {
+		"BaseClass" "item_lua"
+		"ScriptFile" "item_hszr"
+		"AbilityUnitDamageType" "DAMAGE_TYPE_MAGICAL"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_hszr"
+		"Modifiers" {
+    "modifier_item_hszr"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "300"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+            "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "50" //li_liang
+            "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "150" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"tag" "hs"
+		"level" "3"
+	}
+	"item_fszg" {
+		"BaseClass" "item_lua"
+		"ScriptFile" "item_fszg"
+		"AbilityUnitDamageType" "DAMAGE_TYPE_MAGICAL"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_fszg"
+		"Modifiers" {
+    "modifier_item_fszg"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "300"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+            "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "40"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_ssqz" {
+		"BaseClass" "item_lua"
+		"ScriptFile" "item_ssqz"
+		"AbilityUnitDamageType" "DAMAGE_TYPE_MAGICAL"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_ssqz"
+		"Modifiers" {
+    "modifier_item_ssqz"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "200"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+            "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "50" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+            "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "100"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+	}
+	"item_lszc" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_lszc"
+		"Modifiers" {
+    "modifier_item_lszc"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "300"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+            "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "40"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_mhqz" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_mhqz"
+		"Modifiers" {
+    "modifier_item_mhqz"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "200"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+            "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "50" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+            "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "100"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_sszj" {
+		"BaseClass" "item_lua"
+		"ScriptFile" "item_sszj"
+		"AbilityUnitDamageType" "DAMAGE_TYPE_MAGICAL"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_sszj"
+		"Modifiers" {
+    "modifier_item_sszj"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "300"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+            "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "40"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_ddzl" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_ddzl"
+		"Modifiers" {
+    "modifier_item_ddzl"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "87500"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+            "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "1000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+            "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "2500" //li_liang
+            "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "350" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_xrtz" {
+		"BaseClass" "item_lua"
+		"ScriptFile" "item_xrtz"
+		"AbilityUnitDamageType" "DAMAGE_TYPE_MAGICAL"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_xrtz"
+		"Modifiers" {
+    "modifier_item_xrtz"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "88000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+            "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "100"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+            "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "2000" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_lhsb" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_lhsb"
+		"Modifiers" {
+    "modifier_item_lhsb"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "88000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+            "MODIFIER_PROPERTY_EVASION_CONSTANT"    "30"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+            "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "2000" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_scj" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_scj"
+		"Modifiers" {
+    "modifier_item_scj"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "88000"//gong_ji_li
+
+            "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+            "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+            "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "2000"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_xnhj" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_xnhj"
+		"Modifiers" {
+    "modifier_item_xnhj"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "100000"//gong_ji_li
+
+           // "MODIFIER_PROPERTY_HEALTH_BONUS"    "100000"//xue_liang
+           // "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_lgqz" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_lgqz"
+		"Modifiers" {
+    "modifier_item_lgqz"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+          //  "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "2000"//gong_ji_li
+
+            "MODIFIER_PROPERTY_HEALTH_BONUS"    "200000"//xue_liang
+            "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+            "MODIFIER_PROPERTY_MANA_BONUS"    "1000000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_hjsh" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_hjsh"
+		"Modifiers" {
+    "modifier_item_hjsh"
+    {
+        "Passive"               "1"
+        "Properties"
+        {
+          //  "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"             "500"//hu_jia
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"            "100000"//gong_ji_li
+
+            "MODIFIER_PROPERTY_HEALTH_BONUS"    "200000"//xue_liang
+            "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"    "5000"//hui_xue_su_du
+
+           // "MODIFIER_PROPERTY_MANA_BONUS"    "50000"//lan_liang
+          //  "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"    "2000"//hui_lan_su_du
+
+          //  "MODIFIER_PROPERTY_EVASION_CONSTANT"    "50"//shan_bi
+          //  "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"    "50"//gong_su
+
+          //  "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "300"//yi_dong_su_du
+
+          //  "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "66" //li_liang
+           // "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "77" //min_jie
+           // "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "88"//zhi_li
+        }
+    }
+}
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_mfj" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_mfj"
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_cly" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_cly"
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+	"item_zfbs" {
+		"BaseClass" "item_datadriven"
+		"ItemCost" "1"
+		"AbilityTextureName" "item_zfbs"
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
